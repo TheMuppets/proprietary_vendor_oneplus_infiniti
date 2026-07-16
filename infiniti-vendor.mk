@@ -1025,6 +1025,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/vnd_touch_scene_config_main.xml:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/vnd_touch_scene_config_main.xml \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/vnd_tp_fw_main.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/vnd_tp_fw_main.bin \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/vnd_tp_fw_main_second.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/vnd_tp_fw_main_second.bin \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b00 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b01:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b01 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b02:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b02 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b03:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b03 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b04:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b04 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b05:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b05 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b06:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b06 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b07:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b07 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.b08:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b08 \
+    vendor/oneplus/infiniti/proprietary/odm/firmware/uff_face.mdt:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.mdt \
     vendor/oneplus/infiniti/proprietary/odm/firmware/uff_gx.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_gx.b00 \
     vendor/oneplus/infiniti/proprietary/odm/firmware/uff_gx.b01:$(TARGET_COPY_OUT_ODM)/firmware/uff_gx.b01 \
     vendor/oneplus/infiniti/proprietary/odm/firmware/uff_gx.b02:$(TARGET_COPY_OUT_ODM)/firmware/uff_gx.b02 \
@@ -1807,6 +1817,7 @@ PRODUCT_PACKAGES += \
     libsharebuffer \
     libsharebuffer_impl \
     libssd_det \
+    libstfaceunlockocl_uff \
     libtensorflowlite_oplus \
     libtfa98xx \
     libtrace \
