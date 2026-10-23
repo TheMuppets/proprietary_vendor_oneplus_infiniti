@@ -1752,6 +1752,7 @@ PRODUCT_PACKAGES += \
     com.oplus.node.previewdefognode \
     com.oplus.node.realt \
     com.oplus.node.satfusion \
+    camera.oemlayer.v2 \
     lib2DSlender \
     libAECParamParser \
     libAF \
